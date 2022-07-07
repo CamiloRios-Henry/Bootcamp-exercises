@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Ejercicio 02 - Formularios en HTML
+    </title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <form action="/">
+        <div>
+            <label for="nombre">Nombre</label>
+            <input name="Nombre" type="text" id="nombre" placeholder="Nombre completo">
+        </div>
+        <div>
+            <label for="edad">Edad</label>
+            <input name="edad" type="number" id="edad" placeholder="Edad" min="0" max="140" >
+        </div>
+        <div>
+            <label for="frase-favorita">Frase favorita</label>
+            <br />
+            <textarea name="frase-favorita" id="frase-favorita" placeholder="frase favorita" cols="50" rows="4" maxlength="100">
+                La vida empieza cada cinco minutos
+            </textarea>
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+        <div>
+            <button type="reset">Cancelar</button>
+        </div>
+    </form>
+</body>
+</html>
